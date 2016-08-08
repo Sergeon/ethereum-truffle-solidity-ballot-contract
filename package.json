@@ -1,0 +1,27 @@
+{
+  "name": "truffle-ballot-example",
+  "version": "1.0.0",
+  "description": "An example on how to set up a simple dapp with truffle based on solidity example contract ballot",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "solidity",
+    "truffle",
+    "pudding"
+  ],
+  "author": "Sergeon <mauro.caffarat@gmail.com>",
+  "license": "MIT"
+}

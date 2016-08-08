@@ -1,0 +1,106 @@
+/*Util*/
+.fright{
+    float : right;
+}
+
+.fleft{
+    float: left;
+}
+
+.badge.cool{
+    //margin-top : 7px;
+
+
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #26a69a;
+    border-radius: 2px;
+
+    position : relative;
+    float : right;
+    margin-left : 5px;
+
+    &.voted{
+        background-color : #ef5350;
+    }
+
+    &.delegated{
+        background-color: #cddc39;
+    }
+
+    &.left{
+        float : left;
+    }
+    &.weight{
+        min-width: 1rem;
+    }
+}
+
+.delegate{
+    color : #ef5350;
+    float : right;
+}
+
+.collection span.collection-item{
+    display: block;
+    transition: .25s;
+    color: #26a69a;
+}
+
+.collection-item{
+    background-color : gray;
+}
+
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+div, p , li , span{
+    font-size : 'Roboto';
+}
+
+.black {
+  color: black;
+}
